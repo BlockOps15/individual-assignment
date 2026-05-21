@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+    background: #6DADD8;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    background: #1C2B3E
+}
+
+footer {
+    display: flex;
+    background: #101a25;
+    margin-top: 50px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title {
+    font-family: Arial;
+}
+
+.header__h1 {
+    color: #E8E5DE;
+    font-weight: 900;
+}
+
+
+.h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: #1C2B3E;
+}
+
+.pfe__p {
+    font-size: 1.5rem;
+}
+
+.allocation,
+.translation {
+    font-weight: 600;
+}
+
+.phrase {
+    font-style: italic;
+    color: rgb(77, 76, 76);
+}
+
+.footer__h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.github {
+    width: 50px;
+    filter: invert();
+}
+
+a {
+    overflow: hidden;
+}
+
+
+.phrases-for-everyday {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pfe__box-wrapper {
+    display: flex;
+    gap: 20px;
+
+}
+
+.pfe__box {
+    display: flex;
+    background-color: #fef08a;
+    padding: 20px 24px;
+    border-radius: 4px;
+    box-shadow:
+        3px 3px 10px rgba(0, 0, 0, 0.15),
+        6px 6px 20px rgba(0, 0, 0, 0.1),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.08);
+    line-height: 1.6;
+    color: #1e1e1e;
+    min-width: 300px;
+    height: 300px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.irregular-verbs,
+.wrong,
+.pronunciation,
+.pfe__box,
+.useful-phrases {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: Arial;
+    margin-top: 30px;
+}
+
+thead {
+    background-color: #1e1e2e;
+    color: #ffffff;
+}
+
+th {
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 12px 18px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1e1e1e;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tbody tr:hover {
+    background: #94bad3;
+    transition: background-color 0.2s ease;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #051825, transparent);
+    margin: 40px 0;
+    opacity: 0.3;
+}
